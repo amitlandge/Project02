@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: "Red Rose", cursive;
 }
+body {
+  font-size: 1.6rem;
+}
+html {
+  font-size: 62.2%;
+}
 
 /* ------------------------------ */
 /* ---------- NAVBAR ------------ */
@@ -29,6 +35,9 @@
   align-items: center;
   padding: 1.5% 2%;
 }
+.logo {
+  width: 12rem;
+}
 
 .list {
   list-style: none;
@@ -38,13 +47,13 @@
   align-items: center;
 }
 .list li {
-  margin-right: 60px;
-  font-size: 25px;
+  margin-right: 6rem;
+  font-size: 2rem;
   font-family: "Red Rose";
   color: #e8bd0d;
 }
 .button-small {
-  padding: 8px 15px;
+  padding: 0.8rem 1.5rem;
   font-family: "Red Rose";
   letter-spacing: 1px;
   color: aliceblue;
@@ -69,25 +78,24 @@
 .hero-heading {
   width: 70%;
   text-align: center;
-  font-size: 10vmin;
+  font-size: 8rem;
   color: #e8bd0d;
   font-family: "Dela Gothic One";
   letter-spacing: 5px;
 }
 .button-large {
-  padding: 8px 20px;
-  margin-top: 20px;
+  padding: 0.8rem 2rem;
+  margin-top: 2rem;
   font-family: "Red Rose";
   letter-spacing: 1px;
   color: aliceblue;
   background-color: #ff505f;
   border: none;
   outline: none;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .bottom {
-  width: 100%;
   position: relative;
   top: 1.5%;
-  left: 80%;
+  left: 40%;
 }
